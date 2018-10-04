@@ -1,0 +1,23 @@
+{
+  "name": "sonar-wrapper",
+  "version": "0.1.0",
+  "description": "sonar-wrapper standalone scanner",
+  "main": "index.js",
+  "keywords": [
+    "sonar", "SonarQube", "sonar-scanner", "code quality" 
+  ],
+  "directories": {
+    "lib": "lib",
+    "bin": "bin",
+    "conf": "conf"
+  },
+  "scripts": {
+    "init": "npm install && update",
+    "postinstall": "node -e \"try{require('fs').symlinkSync('../lib','node_modules/lib','dir')}catch(e){}\""
+  },
+  "author": "loic.rondel@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "node-rest-client": "^3.1.0"
+  }
+}
