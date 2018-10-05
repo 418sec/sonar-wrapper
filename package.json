@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "sonar-wrapper standalone scanner",
   "main": "index.js",
+  "homepage": "https://github.com/llooiicc/sonar-wrappert#readme",
   "keywords": [
     "sonar", "SonarQube", "sonar-scanner", "code quality" 
   ],
