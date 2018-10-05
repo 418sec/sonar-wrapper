@@ -1,14 +1,17 @@
 {
   "name": "sonar-wrapper",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "sonar-wrapper standalone scanner",
   "main": "index.js",
-  "homepage": "https://github.com/llooiicc/sonar-wrappert#readme",
+  "homepage": "https://github.com/llooiicc/sonar-wrapper#readme",
   "bugs": {
     "url": "https://github.com/llooiicc/sonar-wrapper/issues"
   },
   "keywords": [
-    "sonar", "SonarQube", "sonar-scanner", "code quality" 
+    "sonar",
+    "SonarQube",
+    "sonar-scanner",
+    "code quality"
   ],
   "directories": {
     "lib": "lib",
